@@ -13,3 +13,18 @@
 	to make a logical commit, the staging area allows you to commit changes to more than one
 	file at once so you don't have to clutter your git log with multiple commits of the same logical
 	reason.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+	You can chooses which commits to include into the staging area. Say you were working on multiple
+	files for a bit and forgot what exact changes you did. You can go back and compare the working 
+	directory to the staging area using git diff. You can then choose which modified files to send to the staging area for the commit to the repository.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Say you want to experiment with a new feature but don't think it's ready for primetime yet. You can create a new branch and test out your code to make sure it works properly without affecting the main, working version. Branches make it easier you to keep track of these changes by using a label instead of just a commit id.
+
+5. How do the diagrams help you visualize the branch structure?
+
+	The diagrams allow me to see all the branches and where the branched off from. They also help
+	me see which commits are reachable. 
