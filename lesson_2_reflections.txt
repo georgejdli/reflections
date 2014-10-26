@@ -28,3 +28,7 @@
 
 	The diagrams allow me to see all the branches and where the branched off from. They also help
 	me see which commits are reachable. 
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Two files are combined into one. Git will automatically include any new additions from both branches
+	and removed anything that was in the original parent that was deleted in one of the branches.The merged file is a product of the two branches so the diagram shows the history of changes of both branches leading up to the merger.
