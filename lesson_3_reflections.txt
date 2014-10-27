@@ -25,3 +25,13 @@
  	Branching is done all on one repo. If you want to add a new feature or experimental changes
  	that might take awhile to implement you would use branches to create different versions of
  	your work. 
+
+ 4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+ 	This allows you to review the changes anyone else has made before you incorporate those into your local repo. 
+
+ 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+ 	I guess I could colloborate in person. I could have regular meetings for few hours and hammer out
+ 	some code. Feedback and decision making would probably be quick. It might be difficult to do if
+ 	my collaboraters lived far from me and/or had different schedules.
