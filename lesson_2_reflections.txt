@@ -32,3 +32,9 @@
 6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	Two files are combined into one. Git will automatically include any new additions from both branches
 	and removed anything that was in the original parent that was deleted in one of the branches.The merged file is a product of the two branches so the diagram shows the history of changes of both branches leading up to the merger.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pro: Automatic merging saves time for the simpler case (where the same sections aren't both modified)
+	Cons: You have less control. It's not always obvious that the automatic merging will work without 
+	problems especially since the intent of the author(s) is not known to git.
