@@ -35,3 +35,9 @@
  	I guess I could colloborate in person. I could have regular meetings for few hours and hammer out
  	some code. Feedback and decision making would probably be quick. It might be difficult to do if
  	my collaboraters lived far from me and/or had different schedules.
+
+ 6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+ 	If you want to add a new feature or try something experimental then you should probably make those
+ 	changes in a branch so you don't end up breaking the master. Using a branch gives you time to test
+ 	out bugs without affecting development of the main portion of the code. Working directly on master makes collaborating a little less complicated and more conventient though since dealing with pull requests on a branch involves more steps.
