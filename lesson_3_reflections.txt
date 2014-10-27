@@ -4,3 +4,10 @@
   to create a remote repository. If someone made an acceptable change then I could pull that change and continue
   my work. If I made a change on one computer but then had to switch to another one later I could push a 
   commit to the remote repository, then pull that commit to another computer and continue working from there.
+
+ 2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+ 	If you're collaborating with others you may not always want their changes on your local repository
+ 	yet. Say you're working on a file, take a break, and a contributor pushes a change. If Git pulled the
+ 	changes automatically, you might get confused or not even notice that your file was modified. That
+ 	could lead to some headaches as you try to resume your work.
