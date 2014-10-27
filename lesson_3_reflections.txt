@@ -11,3 +11,17 @@
  	yet. Say you're working on a file, take a break, and a contributor pushes a change. If Git pulled the
  	changes automatically, you might get confused or not even notice that your file was modified. That
  	could lead to some headaches as you try to resume your work.
+
+ 3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+ 	Forks are used when you want to modify someone else's work but you don't have persmission
+ 	to make changes to their repository. You may also want to make your own version of their
+ 	work that you want to share with others. Forking copies the code as it is from one repo
+ 	to your repo. It is all done on the server, not on your local machine.
+
+ 	Clones are used to copy repos from a git server (or fromt another directory on your computer) to a directory on a computer. It automatically creates a remote to the remote repo on Github. If you want
+ 	to edit files on your computer rather than on Github then you would use clone.
+
+ 	Branching is done all on one repo. If you want to add a new feature or experimental changes
+ 	that might take awhile to implement you would use branches to create different versions of
+ 	your work. 
